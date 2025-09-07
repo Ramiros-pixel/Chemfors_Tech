@@ -1,0 +1,15 @@
+{
+  "name": "frontendflask",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "serve": "^14.2.4"
+  },
+  "scripts": {
+    "build": "cd frontend && npm install && CI=false npm run build",
+    "start": "serve -s frontend/build -l 8080"
+  },
+  "engines": {
+  "node": "20.x"
+}
+}
